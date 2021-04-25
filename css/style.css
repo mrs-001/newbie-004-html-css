@@ -97,10 +97,10 @@ body {
 
 @media screen and (min-width: 900px) {
   body {
-    font-size: calc(1em + (100vw - 900px) / 100); }
+    font-size: 1em; }
 
   .article {
-    width: 70%;
+    width: 44%;
     border-radius: 10px;
     display: grid;
     grid-template: "join           join  " auto "subscription   why-us " auto/50% 50%; }
