@@ -92,6 +92,9 @@ body {
   vertical-align: super;
   color: #ccc; }
 
+.fw-700 {
+  font-weight: 700; }
+
 @media screen and (min-width: 900px) {
   body {
     font-size: calc(1em + (100vw - 900px) / 100); }
