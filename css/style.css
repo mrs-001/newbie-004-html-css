@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: calc(1em + (100vw - 375px) / 100);
+  min-width: 100vw;
+  min-height: 100vh; }
+
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #e5eff5;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.article {
+  width: 81%;
+  height: auto;
+  margin: 5% 0 5% 0;
+  border-radius: 5px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2); }
+
+.join {
+  background-color: white;
+  color: #98a6bd;
+  border-radius: 5px 5px 0 0;
+  padding: 0 7% 0 7%;
+  min-height: 270px;
+  grid-area: join;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.subscription {
+  background-color: #2ab2af;
+  color: white;
+  padding: 0 7% 0 7%;
+  min-height: 230px;
+  grid-area: subscription;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.why-us {
+  background-color: #49bebd;
+  color: white;
+  padding: 0 32% 0 7%;
+  min-height: 230px;
+  border-radius: 0 0 5px 5px;
+  grid-area: why-us;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.button {
+  display: block;
+  text-decoration: none;
+  background-color: #c0df34;
+  color: white;
+  padding: 0.8em 0;
+  margin: 0 1%;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2); }
+
+.text-cyan {
+  color: #49bebd; }
+
+.text-bright-yellow {
+  color: #c0df34; }
+
+.parraf {
+  line-height: 1.8em;
+  font-size: .85em;
+  text-align: left; }
+
+.precio {
+  font-size: 2em;
+  font-weight: 700; }
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: calc(1em + (100vw - 900px) / 100); }
+
+  .join {
+    min-height: 210px;
+    padding: 0 3.5% 0 3.5%;
+    border-radius: 10px 10px 0 0; }
+
+  .subscription {
+    min-height: 255px;
+    border-radius: 0 0 0 10px; }
+
+  .why-us {
+    min-height: 255px;
+    border-radius: 0 0 10px 0; }
+
+  .article {
+    border-radius: 10px;
+    display: grid;
+    grid-template: "join           join  " auto "subscription   why-us " auto/50% 50%; } }
+
+/*# sourceMappingURL=style.css.map */
