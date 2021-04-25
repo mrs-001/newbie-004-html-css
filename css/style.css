@@ -22,7 +22,7 @@ body {
   justify-content: center;
   align-items: center; }
 
-.section {
+.group-section {
   width: 81%;
   margin: 5% 0 5% 0;
   border-radius: 5px;
@@ -99,7 +99,7 @@ body {
   body {
     font-size: 1em; }
 
-  .section {
+  .group-section {
     width: 44%;
     border-radius: 10px;
     display: grid;
